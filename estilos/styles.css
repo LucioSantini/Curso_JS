@@ -1,0 +1,56 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: #1E1E1E;
+    color: #E0E0E0;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    max-width: 900px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.ops{
+    background-color: rgb(71, 71, 71);
+    color: rgb(255, 255, 255);
+    height: 5rem;
+    border-radius: 20%;
+    border: none;
+}
+
+.ops:active {
+    background-color: rgb(38, 76, 126);
+}
+
+.imput_request {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 5px;
+    justify-content: center;
+}
+
+.lista_usuarios{
+    display: flex;
+    margin: 5%;
+    gap: 5px;
+}
+
+
+.cards{
+    padding: 20px;
+    border-radius: 20%;
+    background-color: rgba(240, 240, 240, 0.267);
+}
+
+span{
+    color: rgb(255, 0, 0);
+}
