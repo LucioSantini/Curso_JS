@@ -1,0 +1,51 @@
+{
+"usuarios": [
+        {
+            "id" : 1,
+            "nombre" : "Lucio",
+            "password" : "Lucio123",
+            "saldo" : "150000"
+        },
+        {
+            "id" : 2,
+            "nombre" : "Federico",
+            "password" : "Federico123",
+            "saldo" : "50000"
+        },
+        {
+            "id" : 3,
+            "nombre" : "Jose",
+            "password" : "Jose123",
+            "saldo" : "8000"
+        },
+        {
+            "id" : 4,
+            "nombre" : "Fernando",
+            "password" : "Fernando123",
+            "saldo" : "95000"
+        }
+    ],
+"servicios": [
+    {
+        "Id" : 1,
+        "nombre" : "Eden",
+        "Precio" : 35000
+    },
+    {
+        "Id" : 2,
+        "nombre" : "Fibertel",
+        "Precio" : 30000
+    },
+    {
+        "Id" : 3,
+        "nombre" : "Netflix",
+        "Precio" : 9000
+    },
+    {
+        "Id" : 4,
+        "nombre" : "Amazon Prime Video",
+        "Precio" : 7000
+    }
+
+]
+}

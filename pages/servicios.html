@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script defer src="./js/main.js"></script>
+    <script defer src="../js/servicios.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./estilos/styles.css">
-    <title>Banco Coder</title>
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <title>Pagar servicios</title>
 </head>
 <body>
     <header>
-
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Banco Coder</a>
@@ -19,57 +18,35 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">home</a>
+                        </li>
                         <li class="nav-item dropdown" id="usuario_nav">
 
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./pages/registrar.html" id="nav_item2">Registrar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./pages/login.html" id="nav_item1">Ingresar</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <h1 id="h1_usuario"></h1>
+        <h1> Servicios </h1>
 
     </header>
+
     <main>
 
         <div class="deslogeado_contenedor" id="deslogeado">
-            <img src="./img/capibara_mapa.png" alt="Capibara mapa">
+            <img src="../img/capibara_mapa.png" alt="Capibara mapa">
             <H2>Te encuentras deslogeado!</H2>
             <p>Logeate para poder acceder a tu cuenta</p>
         </div>
 
-
         <div class="interfaz_contenedor" id="interfaz">
-            <div class="Saldo">
-                <p class="pesos" id="peso">$ 0</p>
-                <p class="dolares" id="dolar">U$S 0</p>
-            </div>
-            <div class="div2"><button class="btn btn-primary btn-lg" id="ingreso_boton">Ingresos</button></div>
-            <div class="div3"><button class="btn btn-primary btn-lg" id="boton_tranferencias">tranferencias</button></div>
-            <div class="div4"><button class="btn btn-primary btn-lg" id="boton_dolar">Dolar</button></div>
-            <div class="div5"><button class="btn btn-primary btn-lg" id="boton_plazo">plazo fijo</button></div>
-            <div class="div6"><button class="btn btn-primary btn-lg" id="boton_servicios">Pagar Servicios</button></div>
-            <div class="div7"><button class="btn btn-primary btn-lg" id="boton_egresos">Egresos</button></div>
-        </div>
-
-        <!-- <div class="contenedor" id="ops_container">
-            
-        </div>
-        <div class="imput_request" id="imput_container">
 
         </div>
-        <div class="lista_usuarios" id="List_users">
 
-        </div> -->
     </main>
-    
-    <!-- Bootstrap -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <!-- Sweetalert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

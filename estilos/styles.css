@@ -18,6 +18,54 @@ body{
     gap: 10px;
 }
 
+.deslogeado_contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 30rem;
+}
+
+.deslogeado_contenedor img{
+    width: 70%;
+}
+
+.interfaz_contenedor {
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+
+justify-self: center;
+width: 70%;
+margin-top: 30px;
+}
+
+.Saldo { grid-area: 1 / 2 / 2 / 5; 
+background-color: rgb(71, 71, 71);
+border-radius: 2rem;
+padding: 8px;
+justify-items: center;
+font-family:'Courier New', Courier, monospace;
+}
+
+.pesos{
+    font-size: large;
+}
+.dolares{
+    font-size: medium;
+}
+
+.div2 { grid-area: 3 / 1 / 4 / 2; }
+.div3 { grid-area: 3 / 3 / 4 / 4; }
+.div4 { grid-area: 3 / 5 / 4 / 6; }
+.div5 { grid-area: 5 / 1 / 6 / 2; }
+.div6 { grid-area: 5 / 3 / 6 / 4; }
+.div7 { grid-area: 5 / 5 / 6 / 6; }
+
+
 .ops{
     background-color: rgb(71, 71, 71);
     color: rgb(255, 255, 255);
@@ -53,4 +101,16 @@ body{
 
 span{
     color: rgb(255, 0, 0);
+}
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 30rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: #353535c7;
 }
