@@ -86,7 +86,7 @@ function Ops_seleccion(servicios) {
                         })
                     }
                     else{
-                        sesion.saldo = sesion.saldo - servicio.Precio
+                        sesion.saldo = Number(sesion.saldo) - servicio.Precio
                         sessionStorage.setItem("session_activa", JSON.stringify(sesion))
                         Swal.fire({
                             title: "Pago exitoso",

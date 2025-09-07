@@ -143,7 +143,7 @@ else{
             if(result.isConfirmed){
                 const cantidad = Number(result.value)
 
-                sesion.saldo = sesion.saldo + cantidad
+                sesion.saldo = Number(sesion.saldo) + cantidad
                 pesos_contenedor.textContent= "$ "+ sesion.saldo
                 sessionStorage.setItem("session_activa", JSON.stringify(sesion))
 
@@ -188,7 +188,7 @@ else{
                     })
                 }
                 else{
-                sesion.saldo = sesion.saldo - cantidad
+                sesion.saldo = Number(sesion.saldo) - cantidad
                 pesos_contenedor.textContent= "$ "+ sesion.saldo
                 sessionStorage.setItem("session_activa", JSON.stringify(sesion))
 
