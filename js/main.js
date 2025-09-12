@@ -41,6 +41,13 @@ else{
     const dolares_contenedor = document.getElementById("dolar")
     let dolares = 0
 
+    if(isNaN(sesion.dolares)){
+        dolares_contenedor.textContent= "U$S "+ dolares
+    }
+    else{
+        dolares_contenedor.textContent= "U$S "+ sesion.dolares
+    }
+
     const compra_dolar = document.getElementById("boton_dolar")
 
     compra_dolar.addEventListener("click", () =>{
